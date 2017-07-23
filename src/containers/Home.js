@@ -11,7 +11,7 @@ class Home extends Component {
     console.log(a);
     return (
       <div>
-        <h1>Home</h1>
+        <h1></h1>
         <Link to='/about'>About</Link>
       </div>
     );
