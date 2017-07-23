@@ -1,3 +1,5 @@
+<img width="504" alt="ui" src="https://user-images.githubusercontent.com/22553636/28501820-aff66d26-6fa9-11e7-8297-71a16a204b0d.png">
+
 # Inspiration
 Being interested in stock trading ourselves, we wanted to give people the power to work together and come to a consensus on which stocks to invest in.
 
