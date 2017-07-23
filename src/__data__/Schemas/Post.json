@@ -1,0 +1,10 @@
+{
+  "id": "int",
+  "title": "string",
+  "author": "id",
+  "stock": "string",
+  "currentPrice": "decimal",
+  "text": "string",
+  "percentFundInvested": "string",
+
+}

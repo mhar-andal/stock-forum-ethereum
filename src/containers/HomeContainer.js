@@ -1,14 +1,20 @@
 import React, { Component }   from 'react';
 import { connect }            from 'react-redux';
 import { bindActionCreators } from 'redux';
+import web3 from 'web3';
 
-import HomeContainer from 'containers/HomeContainer';
+import NavbarContainer from './NavbarContainer';
+import MainContainer from './MainContainer';
 
-class Home extends Component {
+class HomeContainer extends Component {
   render () {
+    const a = web3;
+    console.log(a);
     return (
       <div>
-        <HomeContainer />
+        <NavbarContainer />
+        <MainContainer />
+
       </div>
     );
   }
@@ -19,4 +25,4 @@ const mapDispatchToProps = (dispatch) => {
   return bindActionCreators({}, dispatch);
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Home);
+export default connect(mapStateToProps, mapDispatchToProps)(HomeContainer);
