@@ -1,4 +1,8 @@
 const ADD_FOO = 'ADD_FOO';
-export function addFoo (foo) {
-  return {type: ADD_FOO, foo: foo};
-}
+
+export function getPosts (posts) {
+  return {
+    type: ADD_FOO,
+    posts: posts
+  };
+};
